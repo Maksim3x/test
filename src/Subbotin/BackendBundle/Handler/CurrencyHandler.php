@@ -7,6 +7,12 @@ use Subbotin\BackendBundle\Entity\Currency;
 use Subbotin\BackendBundle\Entity\CurrencyStatistica;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
+/**
+ * Вспомогательный функционал
+ *
+ * Class CurrencyHandler
+ * @package Subbotin\BackendBundle\Handler
+ */
 class CurrencyHandler
 {
     const LIST_SITES = ["coinmarketcap.com", "coincap.io"];
@@ -18,6 +24,13 @@ class CurrencyHandler
         $this->container = $container;
     }
 
+    /**
+     * Получить статистику по всем валютам по нужным сайтам
+     *
+     * @param $currencies
+     * @param array $sites
+     * @return array
+     */
     public function getCurrencyInfo($currencies, $sites = self::LIST_SITES)
     {
         $statistics = [];

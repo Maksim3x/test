@@ -2,6 +2,12 @@
 
 namespace Subbotin\BackendBundle\Handler\Statistics;
 
+/**
+ * Фабрика классов для парсинга информации с различных сайтов
+ *
+ * Class CurrencyStatisticsFactory
+ * @package Subbotin\BackendBundle\Handler\Statistics
+ */
 class CurrencyStatisticsFactory
 {
     /**

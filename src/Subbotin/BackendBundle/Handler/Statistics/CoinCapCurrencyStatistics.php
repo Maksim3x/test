@@ -4,6 +4,13 @@ namespace Subbotin\BackendBundle\Handler\Statistics;
 
 use Subbotin\BackendBundle\Entity\Currency;
 
+/**
+ * Вспомогательный класс для сбора статистики по валютам
+ * с сайта coincap.io
+ *
+ * Class CoinCapCurrencyStatistics
+ * @package Subbotin\BackendBundle\Handler\Statistics
+ */
 class CoinCapCurrencyStatistics extends ACurrencyStatistics
 {
     public function __construct()

@@ -12,6 +12,8 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class PagesController extends Controller
 {
     /**
+     * начальная страница
+     *
      * @Route("/", name="home_page")
      */
     public function indexAction()
