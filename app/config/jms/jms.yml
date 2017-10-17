@@ -1,0 +1,18 @@
+jms_serializer:
+    property_naming:
+        separator:  _
+        lower_case: true
+
+    metadata:
+        cache: file
+        debug: "%kernel.debug%"
+        file_cache:
+            dir: "%kernel.cache_dir%/serializer"
+        directories:
+            FrontendBundle:
+                namespace_prefix: Subbotin\FrontendBundle
+                path: %kernel.root_dir%/config/serializer/FrontendBundle
+            BackendBundle:
+                namespace_prefix: Subbotin\BackendBundle
+                path: %kernel.root_dir%/config/serializer/BackendBundle
+        auto_detection: true

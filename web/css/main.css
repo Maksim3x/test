@@ -1,0 +1,32 @@
+body{
+    background: white;
+    color: #333;
+    font-size: 16px;
+    font-family: sans-serif, Arial;
+}
+
+*{
+    outline: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+table{
+    background: white;
+    font-size: 0.9em;
+
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .2);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .2);
+    box-shadow: 0 0 4px rgba(0,0,0, .2);
+}
+table tr:nth-child(2n+1){ background: #f5f5f5; }
+table th{ background: #2aabd2; color: white; }
+table td, table th{ text-align: center; vertical-align: middle; }
+table td{ font-size: 0.85em; }
+
+table .red{ background: indianred !important; color: white; }
+table .green{ background: darkseagreen !important; color: white; }
+
+.info{ margin-top: 30px; }

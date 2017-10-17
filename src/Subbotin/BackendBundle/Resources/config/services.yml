@@ -1,0 +1,3 @@
+services:
+    subbotin.backend_bundle.service.currency_statistics_factory:
+        class: Subbotin\BackendBundle\Handler\Statistics\CurrencyStatisticsFactory

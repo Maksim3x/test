@@ -1,0 +1,5 @@
+services:
+    subbotin.backend_bundle.handler.currency_handler:
+        class: Subbotin\BackendBundle\Handler\CurrencyHandler
+        arguments:
+            - "@service_container"

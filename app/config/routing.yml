@@ -1,0 +1,12 @@
+subbotin_backend:
+    resource: "@SubbotinBackendBundle/Controller/"
+    prefix:   /
+
+subbotin_frontend:
+    resource: "@SubbotinFrontendBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
